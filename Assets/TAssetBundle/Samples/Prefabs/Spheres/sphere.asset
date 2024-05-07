@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a6bdeb5ac89cc440b30bef681357cb1, type: 3}
+  m_Name: sphere
+  m_EditorClassIdentifier: 
+  enabled: 1
+  builtin: 0
+  encrypt: 0
+  tag:
+    tags: []
+  compositionStrategyInfos:
+  - strategy: {fileID: 11400000, guid: 7fcb906779d60954bb80570db3e4c954, type: 2}
+    data:
+      rid: 0
+  - strategy: {fileID: 11400000, guid: 27981daf29c3d7b45acb37216efd2cd1, type: 2}
+    data:
+      rid: 1
+  ignoreAssets: []
+  assetBundleBuildInfos:
+  - buildName: BlueSphere
+    objects:
+    - {fileID: 8339173405465852001, guid: 72a33a019dc51ee40bf51576e81276b5, type: 3}
+  - buildName: GreenSphere
+    objects:
+    - {fileID: 2536206905933636602, guid: 4638d568636a6af4a8e6793101d9e202, type: 3}
+  - buildName: RedSphere
+    objects:
+    - {fileID: 1881713147222566350, guid: a956e7b955bc9fb48a7bc68198ea392a, type: 3}
+  references:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: TAssetBundleCompositionStrategy/Data, ns: TAssetBundle.Editor, asm: TAssetBundle.Editor}
+      data: 
+    - rid: 1
+      type: {class: CompositionStrategyBuildData, ns: TAssetBundle.Editor, asm: TAssetBundle.Editor}
+      data:
+        assetBundleBuildName: 0

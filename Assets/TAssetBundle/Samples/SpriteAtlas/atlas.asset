@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a6bdeb5ac89cc440b30bef681357cb1, type: 3}
+  m_Name: atlas
+  m_EditorClassIdentifier: 
+  enabled: 1
+  builtin: 0
+  encrypt: 0
+  tag:
+    tags: []
+  compositionStrategyInfos:
+  - strategy: {fileID: 11400000, guid: 7fcb906779d60954bb80570db3e4c954, type: 2}
+    data:
+      rid: 0
+  - strategy: {fileID: 11400000, guid: 6b2ba771cd4a38347a98efd1534877af, type: 2}
+    data:
+      rid: 1
+  ignoreAssets: []
+  assetBundleBuildInfos:
+  - buildName: icons
+    objects:
+    - {fileID: 102900000, guid: a618bdbf907a6584c8fe5c7345910450, type: 3}
+    - {fileID: 4343727234628468602, guid: 5d3066e4aa4ce3d4ba9e07a1fb21b06c, type: 2}
+  - buildName: icons2
+    objects:
+    - {fileID: 102900000, guid: 6add78eba5cdf31479a521daa27494b8, type: 3}
+    - {fileID: 4343727234628468602, guid: 16668edd139daf74094a486b3dacd2f9, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: TAssetBundleCompositionStrategy/Data, ns: TAssetBundle.Editor, asm: TAssetBundle.Editor}
+      data: 
+    - rid: 1
+      type: {class: CompositionStrategyBuildData, ns: TAssetBundle.Editor, asm: TAssetBundle.Editor}
+      data:
+        assetBundleBuildName: 0

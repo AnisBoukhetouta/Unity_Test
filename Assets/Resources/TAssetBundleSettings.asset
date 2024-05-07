@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77aadddd9e9d4044eb35173884f67ad4, type: 3}
+  m_Name: TAssetBundleSettings
+  m_EditorClassIdentifier: 
+  catalogName: catalog
+  assetBundleOutputPath: AssetBundle
+  buildNumber: 0
+  build:
+    catalogFileExtensions: .json
+    assetBundleFileExtensions: .bundle
+    compressCatalog: 0
+    encryptCatalog: 0
+    cryptoKey: ba5531a3-73c3-4d21-bf82-65e6ab278ede
+    appendHashFromFileName: 0
+  editorPlayMode: 0
+  forceRemoteAssetBundleInEditor: 0
+  maxConcurrentRequestCount: 5
+  maxRetryRequestCount: 3
+  retryRequestWaitDuration: 1
+  useBuildCache: 1
+  enableDebuggingLog: 0
+  buildIncludeCatalog: 1
+  buildIncludeAssetBundle: 1
+  useBuiltinAssetBundleLZ4Recompress: 1
+  useUnityRemoteAssetBundleProvider: 1
+  customCryptoSerializer: {fileID: 0}
+  customCatalogSerializer: {fileID: 0}
+  defaultRemoteUrl: 
+  buildTarget: WebGL

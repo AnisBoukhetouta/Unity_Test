@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a6bdeb5ac89cc440b30bef681357cb1, type: 3}
+  m_Name: texture
+  m_EditorClassIdentifier: 
+  enabled: 1
+  builtin: 0
+  encrypt: 0
+  tag:
+    tags: []
+  compositionStrategyInfos:
+  - strategy: {fileID: 11400000, guid: 7fcb906779d60954bb80570db3e4c954, type: 2}
+    data:
+      rid: 0
+  - strategy: {fileID: 11400000, guid: 34c620ba8bc47024e9873a71c8c18ccf, type: 2}
+    data:
+      rid: 1
+  ignoreAssets: []
+  assetBundleBuildInfos:
+  - buildName: cat
+    objects:
+    - {fileID: 2800000, guid: 64e7ee70a064c7342baf3521c0406be0, type: 3}
+    - {fileID: 2800000, guid: a503ecaae87a3f347a286f1c2f130481, type: 3}
+    - {fileID: 2800000, guid: 01a6f58257a1a9643bc3fccc9795abdf, type: 3}
+  references:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: TAssetBundleCompositionStrategy/Data, ns: TAssetBundle.Editor, asm: TAssetBundle.Editor}
+      data: 
+    - rid: 1
+      type: {class: CompositionStrategyBuildData, ns: TAssetBundle.Editor, asm: TAssetBundle.Editor}
+      data:
+        assetBundleBuildName: 0
